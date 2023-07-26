@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia</title>
+    <link rel="shortcut icon" href="https://static.thenounproject.com/png/2034112-200.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form__container">
+        <h1>Transferencia</h1>
+        <form action="GET" class="form__content" id="formulario">
+            <label for="">Cantidad</label>
+            <input type="text" class="formulario__input" id="Cantidad" placeholder="$000" name="money" required>
+            <label for="">Nombre:</label>
+            <input type="text" class="formulario__input" id="Nombre" placeholder="Juan Carlos" name="name" required>
+            <label for="">Correo:</label>
+            <input type="text" class="formulario__input" id="Email" placeholder="correo@correo.com" name="email" required>
+            <div class="form__method">
+                <label class="content-input">
+                    <input type="radio" name="method" checked>Tarjeta de credito
+                    <i></i>
+                </label>
+                <label class="content-input">
+                    <input type="radio" name="method" checked>Cuenta de Ahorros
+                    <i></i>
+                </label>
+            </div>
+            <a href="#" class="submit">Transferencia</a>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
